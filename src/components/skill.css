@@ -333,6 +333,117 @@
   border-right: 6px solid transparent;
   border-top: 6px solid #fff;
 }
+
+#mongodb .progress {
+  max-width: 70%;
+  height: 100%;
+  background: yellow;
+  border-radius: 3px;
+  position: relative;
+  animation: 1s ease 0s 1 loadBars; 
+}
+
+#mongodb .progress::after {
+  content: "70%";
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  height: 15px;
+  width: 30px;
+  background: #fff;
+  color:black;
+  position: absolute;
+  padding: 2px 3px;
+  border-radius: 4px;
+  right: -18px;
+  top: -30px;
+}
+
+#mongodb .progress::before {
+  content: "";
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  right: -5px;
+  top: -12px;  
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
+
+#mysql .progress {
+  max-width: 80%;
+  height: 100%;
+  background: yellow;
+  border-radius: 3px;
+  position: relative;
+  animation: 1s ease 0s 1 loadBars; 
+}
+
+#mysql .progress::after {
+  content: "80%";
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  height: 15px;
+  width: 30px;
+  background: #fff;
+  color:black;
+  position: absolute;
+  padding: 2px 3px;
+  border-radius: 4px;
+  right: -18px;
+  top: -30px;
+}
+
+#mysql .progress::before {
+  content: "";
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  right: -5px;
+  top: -12px;  
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
+
+#postgres .progress {
+  max-width: 60%;
+  height: 100%;
+  background: yellow;
+  border-radius: 3px;
+  position: relative;
+  animation: 1s ease 0s 1 loadBars; 
+}
+
+#postgres .progress::after {
+  content: "60%";
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  height: 15px;
+  width: 30px;
+  background: #fff;
+  color:black;
+  position: absolute;
+  padding: 2px 3px;
+  border-radius: 4px;
+  right: -18px;
+  top: -30px;
+}
+
+#postgres .progress::before {
+  content: "";
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  right: -5px;
+  top: -12px;  
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
 @keyframes loadBars{
   0% {
     width: 0;
@@ -344,5 +455,5 @@
 }
 
 .skill-margin{
- margin-top: 130px;
+ margin-top: 250px;
 }

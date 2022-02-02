@@ -58,6 +58,25 @@ const skill = () => {
                 <div class='progress'></div>
               </div>
             </div>
+
+            <div class='skill' id='mongodb'>
+              <span class='title'>MongoDb</span>
+              <div class='progress-bar'>
+                <div class='progress'></div>
+              </div>
+            </div>
+            <div class='skill' id='mysql'>
+              <span class='title'>Mysql</span>
+              <div class='progress-bar'>
+                <div class='progress'></div>
+              </div>
+            </div>
+            <div class='skill' id='postgres'>
+              <span class='title'>Postgres Sql</span>
+              <div class='progress-bar'>
+                <div class='progress'></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
