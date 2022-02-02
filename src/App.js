@@ -9,7 +9,7 @@ import Skill from './components/skill.js'
 import Writing from './components/writing'
 import NavBar from "./nav";
 
-import './app.css'
+import './App.css'
 function App() {
   return (
     <Router>
