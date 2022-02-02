@@ -1,0 +1,348 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.skill-head{
+ margin-left: 2.5rem;
+ margin-top: 2rem;
+}
+.skill-body {
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  /* justify-content: center;  */
+  align-items: center; 
+  margin-left: 2rem;
+} 
+
+.skills {
+  padding: 10px;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.title {
+  color: #fff;
+  font-weight: 700;
+}
+
+.progress-bar {
+  background: #404040;
+  border-radius: 3px;
+  width: 100%;
+  height: 1.5vh;
+  margin-top: 5px;
+/*   overflow: hidden; */
+}
+
+
+
+#html .progress {
+  max-width: 90%;
+  height: 100%;
+  background: yellow;
+  border-radius: 3px;
+  position: relative;
+  animation: 1s ease 0s 1 loadBars; 
+}
+
+#html .progress::after {
+  content: "90%";
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  height: 15px;
+  width: 30px;
+  background: #fff;
+  color:black;
+  position: absolute;
+  padding: 2px 3px;
+  border-radius: 4px;
+  right: -18px;
+  top: -30px;
+}
+
+#html .progress::before {
+  content: "";
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  right: -5px;
+  top: -12px;  
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
+
+#css .progress {
+  max-width: 60%;
+  height: 100%;
+  background: yellow;
+  position: relative;
+  animation: 1s ease 0s 1 loadBars; 
+}
+
+#css .progress::after {
+  content: "60%";
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  height: 15px;
+  width: 30px;
+  background: #fff;
+  color:black;
+  position: absolute;
+  padding: 2px 3px;
+  border-radius: 4px;
+  right: -18px;
+  top: -30px;
+}
+
+#css .progress::before {
+  content: "";
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  right: -5px;
+  top: -12px;  
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
+
+#js .progress {
+  max-width: 90%;
+  height: 100%;
+  background: yellow;
+  position: relative;
+  animation: 1s ease 0s 1 loadBars; 
+}
+
+#js .progress::after {
+  content: "90%";
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  height: 15px;
+  width: 30px;
+  background: #fff;color:black;
+  position: absolute;
+  padding: 2px 3px;
+  border-radius: 4px;
+  right: -18px;
+  top: -30px;
+}
+
+#js .progress::before {
+  content: "";
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  right: -5px;
+  top: -12px;  
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
+#bootstrap .progress {
+  max-width: 50%;
+  height: 100%;
+  background: yellow;
+  border-radius: 3px;
+  position: relative;
+  animation: 1s ease 0s 1 loadBars; 
+}
+
+#bootstrap .progress::after {
+  content: "50%";
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  height: 15px;
+  width: 30px;
+  background: #fff;
+  color:black;
+  position: absolute;
+  padding: 2px 3px;
+  border-radius: 4px;
+  right: -18px;
+  top: -30px;
+}
+
+#bootstrap .progress::before {
+  content: "";
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  right: -5px;
+  top: -12px;  
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
+#jquery .progress {
+  max-width: 40%;
+  height: 100%;
+  background: yellow;
+  border-radius: 3px;
+  position: relative;
+  animation: 1s ease 0s 1 loadBars; 
+}
+
+#jquery .progress::after {
+  content: "40%";
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  height: 15px;
+  width: 30px;
+  background: #fff;
+  color:black;
+  position: absolute;
+  padding: 2px 3px;
+  border-radius: 4px;
+  right: -18px;
+  top: -30px;
+}
+
+#jquery .progress::before {
+  content: "";
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  right: -5px;
+  top: -12px;  
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
+#react .progress {
+  max-width: 80%;
+  height: 100%;
+  background: yellow;
+  border-radius: 3px;
+  position: relative;
+  animation: 1s ease 0s 1 loadBars; 
+}
+
+#react .progress::after {
+  content: "80%";
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  height: 15px;
+  width: 30px;
+  background: #fff;
+  color:black;
+  position: absolute;
+  padding: 2px 3px;
+  border-radius: 4px;
+  right: -18px;
+  top: -30px;
+}
+
+#react .progress::before {
+  content: "";
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  right: -5px;
+  top: -12px;  
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
+#node .progress {
+  max-width: 75%;
+  height: 100%;
+  background: yellow;
+  border-radius: 3px;
+  position: relative;
+  animation: 1s ease 0s 1 loadBars; 
+}
+
+#node .progress::after {
+  content: "75%";
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  height: 15px;
+  width: 30px;
+  background: #fff;
+  color:black;
+  position: absolute;
+  padding: 2px 3px;
+  border-radius: 4px;
+  right: -18px;
+  top: -30px;
+}
+
+#node .progress::before {
+  content: "";
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  right: -5px;
+  top: -12px;  
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
+#java .progress {
+  max-width: 65%;
+  height: 100%;
+  background: yellow;
+  border-radius: 3px;
+  position: relative;
+  animation: 1s ease 0s 1 loadBars; 
+}
+
+#java .progress::after {
+  content: "65%";
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  height: 15px;
+  width: 30px;
+  background: #fff;
+  color:black;
+  position: absolute;
+  padding: 2px 3px;
+  border-radius: 4px;
+  right: -18px;
+  top: -30px;
+}
+
+#java .progress::before {
+  content: "";
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  right: -5px;
+  top: -12px;  
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
+@keyframes loadBars{
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+  
+}
+
+.skill-margin{
+ margin-top: 130px;
+}

@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import './style.css'
 const home = () => {
   return (
-    <div className='content'>
+    <div className='content home'>
       <div>
         <h3>Hi, I'm Indrajit.</h3>
         <br></br>
@@ -11,13 +11,10 @@ const home = () => {
         <br></br>
       </div>
       <div>
-        {' '}
+        <p>Problem solver, Fast learner and definitely Indian.</p>
         <p>
-          I'm currently working as Data management Team member in Integra Micro
-          Systems Pvt.Ltd. I have a strong Knowledge and experience in Frontend
-          Technologies like HTML,CSS,Bootstrap,Javascript and React Js and
-          backend Technologies like Node js , Express js and Databases such as
-          Mysql,Mongo Db and PostgresSql.
+          Currently employed by Integra Microsystems Pvt.Ltd , where I shuffle
+          data, and slap my keyboard until everything works..
         </p>
         <br></br>
         <Link to='/about'>Learn More &gt;</Link>

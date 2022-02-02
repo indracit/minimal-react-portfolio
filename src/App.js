@@ -5,14 +5,19 @@ import Home from './components/home'
 import Contact from './components/contact'
 import Resume from './components/resume'
 import Work from './components/work'
+import Skill from './components/skill.js'
 import Writing from './components/writing'
 import NavBar from "./nav";
+
 import './app.css'
 function App() {
   return (
     <Router>
-      <NavBar/>
+      <NavBar />
       <Switch>
+        <Route path='/resume/skill'>
+          <Skill />
+        </Route>
         <Route path='/writing'>
           <Writing />
         </Route>
