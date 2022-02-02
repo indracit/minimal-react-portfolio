@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css'
 const work = () => {
   return (
-    <div className='content'>
+    <div className='content content-s'>
       <div>
         <h2 className='work-head'>Quote Generator.</h2>
         <iframe

@@ -10,6 +10,10 @@
  animation:Slide_Up 2.4s ease;
 
 } 
+
+.content-s{
+  margin-top: 2vh;
+}
 .aboutflex{
   display: flex;
   flex-wrap: wrap;

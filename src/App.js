@@ -27,9 +27,10 @@ function App() {
         <Route path='/resume'>
           <Resume />
         </Route>
-        <Route path='/contact'>
+        <Route exact path='/contact'>
           <Contact />
         </Route>
+        
         <Route path='/about'>
           <About />
         </Route>
